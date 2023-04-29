@@ -1,0 +1,8 @@
+run command
+flask --app main run --reload
+
+packages
+
+pip install flask
+pip install pymysql
+pip install -U flask-cors
