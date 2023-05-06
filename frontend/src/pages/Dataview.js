@@ -43,7 +43,7 @@ export default function Dataview() {
     return (
         <div className="datatable">
             <div className="filter-div">
-                <input placeholder="Filter Date" className="filter-input" name="filter-date" type="text" onInput={setFilter} />
+                <input placeholder="Search Date or Description" className="filter-input" name="filter-date" type="text" onInput={setFilter} />
             </div>
             <div>
                 <DataTable value={dataTableData} filters={filters}
